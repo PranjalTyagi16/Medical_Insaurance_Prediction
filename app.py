@@ -8,7 +8,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.linear_model import LinearRegression
 from sklearn import metrics
 
-loaded_model=pickle.load(open('C:/Users/User/Desktop/medical insurace/Medical_Insurace_pred/medical_Insurance.sav','rb'))
+loaded_model=pickle.load(open('medical_Insurance.sav','rb'))
 
 def medical_cost_pred(input_data):
 
